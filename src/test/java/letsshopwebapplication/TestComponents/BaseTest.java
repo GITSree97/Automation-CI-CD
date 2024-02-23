@@ -53,7 +53,7 @@ String browserName= System.getProperty("browser")!=null ? System.getProperty("br
 	
 	
 	
-	if(browserName.contains	("chrome"))
+	if(browserName.equalsIgnoreCase("chrome"))
 	{
 		
 		
