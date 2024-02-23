@@ -19,6 +19,8 @@ import letsshopwebapplication.pageobjects.LandingPage;
 
 public class StandAloneTest {
 
+
+//New Comments Added
 	public static void main(String[] args){
 		// TODO Auto-generated method stub
 String productName = "IPHONE 13 PRO";
