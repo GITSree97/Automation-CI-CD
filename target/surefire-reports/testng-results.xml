@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="3" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-22T09:25:06 IST" name="Suite" finished-at="2024-02-22T09:25:47 IST" duration-ms="40331">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorvalidationsTest.loginErrorValidation()[pri:0, instance:letsshopwebapplication.tests.ErrorvalidationsTest@313ac989]" name="loginErrorValidation" class="letsshopwebapplication.tests.ErrorvalidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:letsshopwebapplication.tests.SubmitOrderTest@6e20b53a]" name="submitOrder" class="letsshopwebapplication.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-02-22T09:25:06 IST" name="Error Validation Test" finished-at="2024-02-22T09:25:30 IST" duration-ms="24144">
+      <class name="letsshopwebapplication.tests.ErrorvalidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:letsshopwebapplication.tests.ErrorvalidationsTest@313ac989]" started-at="2024-02-22T09:25:06 IST" name="launchApplication" finished-at="2024-02-22T09:25:16 IST" duration-ms="9257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:letsshopwebapplication.tests.ErrorvalidationsTest@313ac989]" started-at="2024-02-22T09:25:16 IST" name="ProductErrorValidation" finished-at="2024-02-22T09:25:25 IST" duration-ms="9563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:letsshopwebapplication.tests.ErrorvalidationsTest@313ac989]" started-at="2024-02-22T09:25:25 IST" name="closeBrowser" finished-at="2024-02-22T09:25:26 IST" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:letsshopwebapplication.tests.ErrorvalidationsTest@313ac989]" started-at="2024-02-22T09:25:26 IST" name="launchApplication" finished-at="2024-02-22T09:25:28 IST" duration-ms="2301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:letsshopwebapplication.tests.ErrorvalidationsTest@313ac989]" started-at="2024-02-22T09:25:28 IST" name="loginErrorValidation" finished-at="2024-02-22T09:25:29 IST" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:letsshopwebapplication.tests.ErrorvalidationsTest@313ac989]" started-at="2024-02-22T09:25:29 IST" name="closeBrowser" finished-at="2024-02-22T09:25:30 IST" duration-ms="1545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- letsshopwebapplication.tests.ErrorvalidationsTest -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2024-02-22T09:25:06 IST" name="Submit Order Test" finished-at="2024-02-22T09:25:47 IST" duration-ms="40331">
+      <class name="letsshopwebapplication.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:letsshopwebapplication.tests.SubmitOrderTest@6e20b53a]" started-at="2024-02-22T09:25:07 IST" name="launchApplication" finished-at="2024-02-22T09:25:15 IST" duration-ms="7863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:letsshopwebapplication.tests.SubmitOrderTest@6e20b53a]" started-at="2024-02-22T09:25:15 IST" name="submitOrder" data-provider="getData" finished-at="2024-02-22T09:25:28 IST" duration-ms="13202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Anshika@24, email=anshikareddy@gmail.com, productName=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:letsshopwebapplication.tests.SubmitOrderTest@6e20b53a]" started-at="2024-02-22T09:25:28 IST" name="closeBrowser" finished-at="2024-02-22T09:25:29 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:letsshopwebapplication.tests.SubmitOrderTest@6e20b53a]" started-at="2024-02-22T09:25:29 IST" name="launchApplication" finished-at="2024-02-22T09:25:33 IST" duration-ms="4198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:letsshopwebapplication.tests.SubmitOrderTest@6e20b53a]" started-at="2024-02-22T09:25:33 IST" name="submitOrder" data-provider="getData" finished-at="2024-02-22T09:25:46 IST" duration-ms="13680" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, email=shetty@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at letsshopwebapplication.tests.SubmitOrderTest.submitOrder(SubmitOrderTest.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:letsshopwebapplication.tests.SubmitOrderTest@6e20b53a]" started-at="2024-02-22T09:25:46 IST" name="closeBrowser" finished-at="2024-02-22T09:25:47 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:letsshopwebapplication.tests.SubmitOrderTest@6e20b53a]" started-at="2024-02-22T09:25:47 IST" name="orderHistoryTest" finished-at="2024-02-22T09:25:47 IST" depends-on-methods="letsshopwebapplication.tests.SubmitOrderTest.submitOrder" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method letsshopwebapplication.tests.SubmitOrderTest.orderHistoryTest() on instance letsshopwebapplication.tests.SubmitOrderTest@6e20b53a depends on not successfully finished methods 
+[letsshopwebapplication.tests.SubmitOrderTest.submitOrder() on instance letsshopwebapplication.tests.SubmitOrderTest@6e20b53a]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method letsshopwebapplication.tests.SubmitOrderTest.orderHistoryTest() on instance letsshopwebapplication.tests.SubmitOrderTest@6e20b53a depends on not successfully finished methods 
+[letsshopwebapplication.tests.SubmitOrderTest.submitOrder() on instance letsshopwebapplication.tests.SubmitOrderTest@6e20b53a]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+      </class> <!-- letsshopwebapplication.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
