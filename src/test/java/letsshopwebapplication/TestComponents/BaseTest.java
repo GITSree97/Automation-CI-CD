@@ -53,20 +53,16 @@ String browserName= System.getProperty("browser")!=null ? System.getProperty("br
 	
 	
 	
-	if(browserName.contains		("chrome"))
+	if(browserName.contains	("chrome"))
 	{
 		
 		
-		ChromeOptions options = new ChromeOptions();
+		//ChromeOptions options = new ChromeOptions();
+		
 		System.setProperty("webdriver.chrome.driver", "C:/Users/maddi/OneDrive/Documents/chromedriver.exe");
 	    
-		if(browserName.contains("headless"))
-		{
-			options.addArguments("headless");
-		}
+	driver = new ChromeDriver();
 		
-		driver = new ChromeDriver(options);
-		driver.manage().window().setSize(new Dimension(1440,900));//full screen
 	}
 	else if(browserName.equalsIgnoreCase("firefox"))
 	{
